@@ -1,0 +1,12 @@
+.gradle/
+.kotlin/
+.idea/
+.tooling/
+**/build/
+local.properties
+*.jks
+*.keystore
+*.p12
+signing.properties
+.signing/
+/build-verification.log

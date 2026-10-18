@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyh.translator.RealtimeChannelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-18T14:11:32" hostname="CYH777" time="1.497">
+  <properties/>
+  <testcase name="secureSocketWaitsForConfigurationAndStreamsPcmAndCaptions" classname="com.cyh.translator.RealtimeChannelTest" time="1.497"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

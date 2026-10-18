@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyh.translator.CaptionAssemblerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-18T12:00:52" hostname="CYH777" time="0.107">
+  <properties/>
+  <testcase name="pairsSourceThenTranslation" classname="com.cyh.translator.CaptionAssemblerTest" time="0.07"/>
+  <testcase name="duplicateDoneEventsProduceOneCaption" classname="com.cyh.translator.CaptionAssemblerTest" time="0.004"/>
+  <testcase name="responseDoneCanSupplyFinalText" classname="com.cyh.translator.CaptionAssemblerTest" time="0.0"/>
+  <testcase name="pairsTranslationBeforeSourceWithoutDuplicate" classname="com.cyh.translator.CaptionAssemblerTest" time="0.001"/>
+  <testcase name="resetKeepsUnpairedTranslationVisible" classname="com.cyh.translator.CaptionAssemblerTest" time="0.001"/>
+  <testcase name="pendingSourcesAreBoundedAndMarkedInterrupted" classname="com.cyh.translator.CaptionAssemblerTest" time="0.008"/>
+  <testcase name="reconnectDoesNotPairOldSourceWithNewTranslation" classname="com.cyh.translator.CaptionAssemblerTest" time="0.0"/>
+  <testcase name="multipleUtterancesAreFifo" classname="com.cyh.translator.CaptionAssemblerTest" time="0.005"/>
+  <testcase name="deltasAndTranscriptFallbackAreSupported" classname="com.cyh.translator.CaptionAssemblerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

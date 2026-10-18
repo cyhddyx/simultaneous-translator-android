@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyh.translator.ProtocolTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-18T14:11:32" hostname="CYH777" time="0.155">
+  <properties/>
+  <testcase name="rejectsModalityMismatch" classname="com.cyh.translator.ProtocolTest" time="0.022"/>
+  <testcase name="rejectsInsecureOrCredentialedEndpoints" classname="com.cyh.translator.ProtocolTest" time="0.111"/>
+  <testcase name="textConfigurationDoesNotRequestVoice" classname="com.cyh.translator.ProtocolTest" time="0.013"/>
+  <testcase name="emptyTextFallsBackToTranscript" classname="com.cyh.translator.ProtocolTest" time="0.0"/>
+  <testcase name="urlPreservesQueryAndReplacesModel" classname="com.cyh.translator.ProtocolTest" time="0.001"/>
+  <testcase name="formerlyTextOnlyLanguagesAreAvailableWithoutSpecialRestrictions" classname="com.cyh.translator.ProtocolTest" time="0.007"/>
+  <testcase name="textAcknowledgementIsAccepted" classname="com.cyh.translator.ProtocolTest" time="0.0"/>
+  <testcase name="bothChannelsRequestOnlyTextWithoutVoiceParameters" classname="com.cyh.translator.ProtocolTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

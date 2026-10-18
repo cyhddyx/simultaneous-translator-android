@@ -1,0 +1,8 @@
+
+com.cyh.translator.AppSmokeTest:.....
+
+Time: 21.624
+
+OK (5 tests)
+
+

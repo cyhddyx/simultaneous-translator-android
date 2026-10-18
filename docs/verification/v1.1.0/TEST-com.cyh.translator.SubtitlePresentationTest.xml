@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyh.translator.SubtitlePresentationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-18T14:11:33" hostname="CYH777" time="0.019">
+  <properties/>
+  <testcase name="normalizedPositionSurvivesRotationAndLargeWindow" classname="com.cyh.translator.SubtitlePresentationTest" time="0.007"/>
+  <testcase name="translationWithoutSourceIsStillVisible" classname="com.cyh.translator.SubtitlePresentationTest" time="0.007"/>
+  <testcase name="waitingPlaceholdersAreNotReportedAsContent" classname="com.cyh.translator.SubtitlePresentationTest" time="0.0"/>
+  <testcase name="livePartialIsDisplayedBeforeFinalCaption" classname="com.cyh.translator.SubtitlePresentationTest" time="0.0"/>
+  <testcase name="corruptNonFinitePositionFallsBackSafely" classname="com.cyh.translator.SubtitlePresentationTest" time="0.0"/>
+  <testcase name="newSourceDoesNotReuseOldTranslation" classname="com.cyh.translator.SubtitlePresentationTest" time="0.002"/>
+  <testcase name="channelsDoNotShowEachOthersCaptions" classname="com.cyh.translator.SubtitlePresentationTest" time="0.0"/>
+  <testcase name="offscreenPositionIsClampedToVisibleArea" classname="com.cyh.translator.SubtitlePresentationTest" time="0.0"/>
+  <testcase name="finalCaptionRemainsVisibleAfterPartialsAreCleared" classname="com.cyh.translator.SubtitlePresentationTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyh.translator.ProtocolTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-18T12:00:52" hostname="CYH777" time="0.237">
+  <properties/>
+  <testcase name="voiceAcknowledgementIsAccepted" classname="com.cyh.translator.ProtocolTest" time="0.008"/>
+  <testcase name="rejectsModalityMismatch" classname="com.cyh.translator.ProtocolTest" time="0.002"/>
+  <testcase name="rejectsInsecureOrCredentialedEndpoints" classname="com.cyh.translator.ProtocolTest" time="0.22"/>
+  <testcase name="textOnlyLanguageCannotBeSpoken" classname="com.cyh.translator.ProtocolTest" time="0.003"/>
+  <testcase name="textConfigurationDoesNotRequestVoice" classname="com.cyh.translator.ProtocolTest" time="0.0"/>
+  <testcase name="cloneFrequencyFollowsChannel" classname="com.cyh.translator.ProtocolTest" time="0.001"/>
+  <testcase name="urlPreservesQueryAndReplacesModel" classname="com.cyh.translator.ProtocolTest" time="0.0"/>
+  <testcase name="systemVoiceExplicitlyDisablesClone" classname="com.cyh.translator.ProtocolTest" time="0.0"/>
+  <testcase name="rejectsUnconfirmedClone" classname="com.cyh.translator.ProtocolTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

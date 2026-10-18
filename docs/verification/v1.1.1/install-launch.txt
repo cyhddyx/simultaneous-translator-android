@@ -1,0 +1,16 @@
+== adb install release APK (after uninstalling debug/test) ==
+Performing Streamed Install
+Success
+
+== version ==
+    versionCode=3 minSdk=29 targetSdk=35
+    versionName=1.1.1
+
+== cold start (force-stop first) ==
+Starting: Intent { cmp=com.cyh.translator/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.cyh.translator/.MainActivity
+TotalTime: 1945
+WaitTime: 2005
+Complete

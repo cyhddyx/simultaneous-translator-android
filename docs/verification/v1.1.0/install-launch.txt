@@ -1,0 +1,11 @@
+== adb install release APK ==
+Performing Streamed Install
+Success
+
+== version ==
+    versionCode=2 minSdk=29 targetSdk=35
+    versionName=1.1.0
+
+== launch ==
+Starting: Intent { cmp=com.cyh.translator/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
