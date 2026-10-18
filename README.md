@@ -2,6 +2,8 @@
 
 独立原生 Kotlin 安卓应用。代码、构建工具、文档和安装包都位于本目录。最低 Android 10（API 29），目标 Android 15（API 35）。沿用 Windows 版的实时同传接口、60 种语言能力表和纸白/浅绿/紫色配色；手机端固定为纯文字字幕，不播放译文语音。v1.1.1 起悬浮字幕改为纯译文滚动显示（像视频字幕一样），原文在应用内和历史记录中查看。
 
+GitHub 仓库：<https://github.com/cyhddyx/simultaneous-translator-android>（源码与文档在 `main`；安装包在 Releases 页面）。
+
 ## 安装使用
 
 安装包：`releases/v1.1.1/simultaneous-translator-android-1.1.1-release.apk`（versionName 1.1.1 / versionCode 3），同目录提供 `SHA256SUMS.txt`。这是使用持久本地发布证书签名的 APK，可以直接复制到手机安装；覆盖升级必须使用同一证书，本地设置和历史会保留。
@@ -72,3 +74,18 @@ cd E:\Project\translation\android
 - `.tooling/`：本地 SDK、模拟器及构建辅助资料，不提交 Git。
 
 安卓构建不依赖 Windows 工程，也没有修改 Windows 源码和发布链路。后续更新语言能力表时需同步两平台数据。
+
+## GitHub 推送与发布
+
+```powershell
+cd E:\Project\translation\android
+git add -A
+git commit -m "说明这次改了什么"
+git push                      # main 已跟踪 origin/main
+```
+
+- 仓库：<https://github.com/cyhddyx/simultaneous-translator-android>。当前 `main` 已推送 v1.1.1 源码与文档；v1.1.1 的 APK、`SHA256SUMS.txt`、发行说明已作为 **GitHub Release v1.1.1** 的附件发布。
+- `git push` 只推源码和文档，不会自动上传安装包；每次发版后到 GitHub Releases 手动（或用 API/`gh release create`）上传 `releases/v<版本>/` 下的 APK 与 `SHA256SUMS.txt`。
+- `.tooling/`（本地 SDK/模拟器，约 10 GB）、`app/build/`、`.gradle/`、`.kotlin/`、`local.properties` 都已被 `.gitignore` 排除。
+- 签名材料 `.signing/translator-release.p12` 和 `signing.properties` 已被 `.gitignore` 排除，**不要提交**；请离线备份，后续覆盖升级必须用同一证书。
+- `.github/` 下目前没有 CI；需要的话可以再加 GitHub Actions 自动跑 `:app:testDebugUnitTest` 与 `:app:lintDebug`。
